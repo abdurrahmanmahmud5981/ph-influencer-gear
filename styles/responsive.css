@@ -1,0 +1,34 @@
+/* small device */
+@media screen and (max-width: 576px) {
+    /* navber */
+  .menu {
+    display: none;
+  }
+  .hamburger-menu,
+  .shopping {
+    display: block;
+  }
+  .shopping a img {
+    display: block;
+    width: 20px;
+    height: 20px;
+  }
+  .brand-logo {
+    font-size: calc(var(--font-24)-3px);
+  }
+}
+
+/* tablet device */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    /* navber */
+  .menu {
+    gap: 18px;
+  }
+  .hamburger-menu,
+  .shopping {
+    display: none;
+  }
+  .brand-logo {
+    font-size: calc(1.11rem);
+  }
+}
