@@ -38,6 +38,10 @@
     width: 290px;
     height: 290px;
   }
+  /* populer collection */
+  .collection-container{
+    grid-template-columns: repeat(1,minmax(200px, 1fr));
+}
 }
 
 /* tablet device */
@@ -77,6 +81,10 @@
     width: 350px;
     height: 350px;
   }
+    /* populer collection */
+    .collection-container{
+        grid-template-columns: repeat(2,minmax(200px, 1fr));
+    }
 }
 
 /* desktop device */
