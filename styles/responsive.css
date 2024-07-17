@@ -35,13 +35,13 @@
     line-height: 21px;
   }
   .banner-image {
-    width: 100%;
-    height: 280px;
+    width: 290px;
+    height: 290px;
   }
 }
 
 /* tablet device */
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 992px) {
   /* navber */
   .menu {
     gap: 18px;
@@ -52,5 +52,46 @@
   }
   .brand-logo {
     font-size: calc(1.11rem);
+  }
+
+
+  /* banner */
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-info {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .banner-title {
+    font-size: var(--font-28);
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .banner-description {
+    font-size: var(--font-14);
+    line-height: 21px;
+  }
+  .banner-image {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+/* desktop device */
+@media screen and (min-width: 992px) and (max-width: 1120px) {
+
+  /* banner */
+
+  .banner-title {
+    font-size: 3rem;
+  }
+  .banner-description {
+    line-height: 21px;
+  }
+  .banner-image {
+    width: 420px;
+    height: 420px;
   }
 }
