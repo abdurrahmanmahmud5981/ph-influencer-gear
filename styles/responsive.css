@@ -1,6 +1,6 @@
 /* small device */
 @media screen and (max-width: 576px) {
-    /* navber */
+  /* navber */
   .menu {
     display: none;
   }
@@ -14,13 +14,35 @@
     height: 20px;
   }
   .brand-logo {
-    font-size: calc(var(--font-24)-3px);
+    font-size: 1.2rem;
+  }
+  /* banner */
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-info {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .banner-title {
+    font-size: var(--font-28);
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .banner-description {
+    font-size: var(--font-14);
+    line-height: 21px;
+  }
+  .banner-image {
+    width: 100%;
+    height: 280px;
   }
 }
 
 /* tablet device */
 @media screen and (min-width: 576px) and (max-width: 768px) {
-    /* navber */
+  /* navber */
   .menu {
     gap: 18px;
   }
