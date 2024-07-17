@@ -36,7 +36,12 @@ header {
   font-family: var(--font-poppins);
   color: var(--header-color);
 }
-
+/* main */
+main >section{
+    max-width: 1110px;
+    margin: 0px auto;
+    padding: 40px 20px;
+}
 /* nav styles */
 .navber {
   justify-content: space-between;
@@ -131,4 +136,17 @@ header {
 .banner-image img {
   width: 100%;
   display: block;/
+}
+
+/* clintes logos style */
+.clintes-logos{
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.clintes-logos img {
+    display: block;
+  width: 100px;
+  height: 100px;
 }
